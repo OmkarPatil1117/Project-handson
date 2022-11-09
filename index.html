@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(./img/assign\ 3_1.jpg);
+            height: 100vh;
+            text-align: center;
+            
+        }
+        .fom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        form {
+            width: 40%;
+            height: 45vh;
+            background-color: white;
+            text-align: center;
+            box-shadow: inset 0 0 40px rgb(212, 20, 52);
+            border-top-right-radius: 2rem;
+            border-bottom-left-radius: 2rem;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            margin: 1rem;
+            border-radius: 0.4rem;
+        }
+        table > tr {
+            margin: 1rem;
+        }
+        table {
+            border-spacing: 2rem;
+        }
+        input {
+            border: 2px solid;
+            border-radius: 0.4rem;
+        }
+        @media screen and (max-width:700px) {
+            form {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="fom">
+    <form action="">
+        <h1>INVITATION</h1>
+        <div class="center">
+        <table>
+            <tr>
+                <td><label for="name">Name</label> :</td>
+                <td><input type="text" name="name" id="name">  </td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB</label> :</td>
+                <td><input type="date" style="width: 10rem;" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL</label> :</td>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+        </table>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+   </div>
+    <p>-:Venue:-</p>
+    <p>BPTP TOWER, SECTOR 61, GURUGRAM </p>
+    <p>All office member must come to party</p>
+</body>
+</html>
